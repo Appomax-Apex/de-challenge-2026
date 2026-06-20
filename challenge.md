@@ -2,6 +2,15 @@
 
 > **อ่าน [`scenario.md`](scenario.md) ก่อนเริ่มทำ** — โจทย์ทั้งหมดอิงจากสถานการณ์จริงในโรงงาน
 
+## Platform: Snowflake
+
+โจทย์นี้ต้องทำบน **Snowflake** เท่านั้น:
+- ใช้ Snowflake Trial Account (สมัครฟรี — ดู [README](README.md))
+- สร้าง tables, views, stored procedures, tasks, dynamic tables ใน Snowflake
+- ใช้ Snowflake SQL หรือ Snowflake features (Cortex ML, Streamlit in Snowflake, Semantic Views) เท่านั้น
+- **ห้าม** ใช้ tool ภายนอก (dbt, Spark, Python scripts ที่รันนอก Snowflake) เป็น pipeline หลัก
+- ใช้ Cortex Code (Desktop IDE) หรือ Snowsight ในการทำงาน
+
 ---
 
 ## Phase 1: คำถามจากผู้จัดการ (ต้องตอบได้หลัง Task 1-2)
