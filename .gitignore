@@ -1,0 +1,20 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Snowflake
+.snowflake/
+
+# Data exports (too large for git)
+*.parquet
+*.csv.gz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
